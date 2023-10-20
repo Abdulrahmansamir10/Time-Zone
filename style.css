@@ -1,0 +1,187 @@
+.navbar{
+ display: flex;
+ justify-content: space-around; 
+ background-color: white;  
+}
+.navbar a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.navbar a:hover{
+    background-color:red;
+}
+.sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    position: relative;
+}
+.sec h1{
+    font-size: 80px;
+}
+.but{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    width: 130px;
+    border: none;
+    border-radius: 5px ;
+}
+ .but:hover{
+    background-color:red;
+    transform: scaley(1);
+} 
+.but::before {
+    content: " ";
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgb(7, 7, 7);
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: (0.5,1.6,0.4,0.7);
+}
+.but::before{
+    transform: scaleX(0);
+}
+.but:hover:before{
+    transform: scaley(1);
+    transition: transform .5s;
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.sec1 div{
+    margin: 15px;
+}
+.sec1 div p{
+    color: #ff3150;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Zoom-In{
+    transform: scale(1);
+    transition: .5s ease-in-out;
+}
+ .Zoom-In:hover img{
+    transform: scale(1.5);
+}
+.sec2{
+    display: flex;
+}
+.sec2 div{
+    margin: 10px;
+}
+
+.sec3{
+    text-align: center;
+    margin-top: 50px;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+}
+
+.div1 button{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    width: 230px;
+    border: none;
+    border-radius: 5px ;
+}
+.div1 button:hover{
+    background-color:red;
+    transform: scaley(1);
+} 
+.div1 button::before {
+    content: " ";
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgb(7, 7, 7);
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: (0.5,1.6,0.4,0.7);
+}
+.div1 button::before{
+    transform: scaleX(1);
+}
+.div1 button:hover:before{
+    transform: scaley(0);
+    transition: transform 1s;
+}
+
+.sec3 h3{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.sec4 div{
+    margin: 30px;
+}
+.sec4 h1{
+    font-size: 50px;
+}
+.but{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    width: 150px;
+    border: none;
+    border-radius: 5px ;
+}
+
+.sec5{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    margin-top: 50px;
+}
+
+.sec5 div{
+    margin: 30px;
+}
+
+.sec5 i{
+    font-size: 35px;
+}
+
+
+.sec6 a{
+    text-decoration: none;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.copy i{
+    margin: 10px;
+}
+span{
+    color: red;
+}
+
